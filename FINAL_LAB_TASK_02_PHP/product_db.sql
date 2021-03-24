@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 24, 2021 at 04:27 AM
+-- Generation Time: Mar 24, 2021 at 04:54 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.2
 
@@ -40,9 +40,9 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `buyingPrice`, `sellingPrice`, `displayable`) VALUES
-(3, 'Nokia', 35000, 40000, 'Yes'),
-(4, 'Samsung', 40000, 50000, 'Yes'),
-(5, 'HTC', 15000, 22000, 'Yes');
+(8, 'Nokia', 35000, 40000, 'Yes'),
+(9, 'One Plus', 40000, 50000, 'Yes'),
+(10, 'Samsung', 15000, 22000, 'Yes');
 
 --
 -- Indexes for dumped tables
@@ -62,7 +62,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(6) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(6) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
